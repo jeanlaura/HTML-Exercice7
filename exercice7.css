@@ -1,0 +1,48 @@
+ol{
+    margin: 0 0 0 0 !important;
+}
+.cadre1{
+  background-color: blue;
+  padding-top: 16px;
+}
+.cadre2{
+  background-color: purple;
+  padding-top: 16px;
+}
+.cadre3{
+  background-color: crimson;
+  padding-top: 16px;
+}
+.DIVcadre1{
+  display: inline;
+  background: blue;
+}
+.DIVcadre2{
+  display: inline;
+  background: purple;
+}
+.DIVcadre3{
+  display: inline;
+  background: crimson;
+}
+.cadre1div{
+  background-color: blue;
+  margin-left: 20px;
+  width: 111px;
+  display: block;
+}
+.cadre2div{
+  background-color: purple;
+  margin-left: 20px;
+  width: 164px;
+  display: block;
+}
+.cadre3div{
+  background-color: crimson;
+  margin-left: 20px;
+  width: 216px;
+  display: block;
+}
+input{
+  border: 1px solid black;
+}
