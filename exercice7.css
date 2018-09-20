@@ -13,35 +13,32 @@ ol{
   background-color: crimson;
   padding-top: 16px;
 }
-.DIVcadre1{
-  display: inline;
-  background: blue;
-}
-.DIVcadre2{
-  display: inline;
-  background: purple;
-}
-.DIVcadre3{
-  display: inline;
-  background: crimson;
-}
 .cadre1div{
   background-color: blue;
   margin-left: 20px;
   width: 111px;
-  display: block;
 }
 .cadre2div{
   background-color: purple;
   margin-left: 20px;
   width: 164px;
-  display: block;
 }
 .cadre3div{
   background-color: crimson;
   margin-left: 20px;
   width: 216px;
-  display: block;
+}
+.fieldset1{
+  border: 0;
+  background-color: blue;
+}
+.fieldset2{
+  border: 0;
+  background-color: purple;
+}
+.fieldset3{
+  border: 0;
+  background-color: crimson;
 }
 input{
   border: 1px solid black;

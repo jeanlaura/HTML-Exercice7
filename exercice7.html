@@ -6,59 +6,55 @@
     <title>Exercice number NUMBER NUMBER seven !!!!!!!!!!!!</title>
   </head>
   <body>
-    <div class="DIVcadre1">
-      <span class="cadre1div">
-        Votre identité
-      </span>
-      <ol class="cadre1">
-        <li>
-          Nom : <input type="text" name="nom" placeholder="Nom">
-        </li>
-        <li>
-          Prénom : <input type="text" name="prenom" placeholder="Prénom">
-        </li>
-        <li>
-          Adresse mail : <input type="text" name="mail" placeholder="Adresse mail">
-        </li>
-      </ol>
-    </div><br>
-    <div class="DIVcadre2">
-      <span class="cadre2div">
-        Adresse de livraison
-      </span>
-      <ol class="cadre2">
-        <li>
-          Adresse : <textarea name="Adresse" rows="8" cols="25"></textarea>
-        </li>
-        <li>
-          Code postal : <input type="text" name="cp" placeholder="Code postal">
-        </li>
-        <li>
-          Ville : <input type="text" name="ville" placeholder="Ville">
-        </li>
-      </ol>
-    </div><br>
-    <div class="DIVcadre3">
-      <span class="cadre3div">
-        Informations de réglement
-      </span>
-      <ol class="cadre3">
-        <li>
-          Type de carte bancaire :<br>
-          <input type="radio" name="visa" placeholder="VISA">VISA<br>
-          <input type="radio" name="master" placeholder="Mastercard">Mastercard
-        </li>
-        <li>
-          Numéro de carte : <input type="text" name="numCarte" placeholder="Numéro de carte">
-        </li>
-        <li>
-          Code de sécurité : <input type="text" name="codeSecu" placeholder="Code de sécurité">
-        </li>
-        <li>
-          Nom du titulaire : <input type="text" name="nomTitu" placeholder="Nom du titulaire">
-        </li>
-      </ol>
-    </div><br>
-    <input type="submit" name="acheter" value="J'achète !">
+    <form>
+      <fieldset class="fieldset1">
+        <legend class="cadre1div">Votre identité</legend>
+        <ol class="cadre1">
+          <li>
+            <label for="nom">Nom : </label><input type="text" name="nom" placeholder="Nom">
+          </li>
+          <li>
+            <label for="prenom">Prénom : </label><input type="text" name="prenom" placeholder="Prénom">
+          </li>
+          <li>
+            <label for="mail">Adresse mail : </label><input type="text" name="mail" placeholder="Adresse mail">
+          </li>
+        </ol>
+      </fieldset><br>
+      <fieldset class="fieldset2">
+        <legend class="cadre2div">Adresse de livraison</legend>
+        <ol class="cadre2">
+          <li>
+            <label for="adresse">Adresse : </label><textarea name="Adresse" rows="8" cols="25"></textarea>
+          </li>
+          <li>
+            <label for="cp">Code postal : </label><input type="text" name="cp" placeholder="Code postal">
+          </li>
+          <li>
+            <label for="ville">Ville : </label><input type="text" name="ville" placeholder="Ville">
+          </li>
+        </ol>
+      </fieldset><br>
+      <fieldset class="fieldset3">
+        <legend class="cadre3div">Informations de réglement</legend>
+        <ol class="cadre3">
+          <li>
+            <label for="cb">Type de carte bancaire : </label><br>
+            <input type="radio" name="visa" placeholder="VISA">VISA<br>
+            <input type="radio" name="master" placeholder="Mastercard">Mastercard
+          </li>
+          <li>
+            <label for="numCarte">Numéro de carte : </label><input type="text" name="numCarte" placeholder="Numéro de carte">
+          </li>
+          <li>
+            <label for="codeSecu">Code de sécurité : </label><input type="text" name="codeSecu" placeholder="Code de sécurité">
+          </li>
+          <li>
+            <label for="nomTitu">Nom du titulaire : </label><input type="text" name="nomTitu" placeholder="Nom du titulaire">
+          </li>
+        </ol>
+      </fieldset><br>
+      <input type="submit" name="acheter" value="J'achète !">
+    </form>
   </body>
 </html>
